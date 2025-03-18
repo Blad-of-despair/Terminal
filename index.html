@@ -25,22 +25,22 @@
         }
         @keyframes fadeInOut {
             0% {
-                opacity: 0; /* Fully transparent */
+                opacity: 0; 
             }
             50% {
-                opacity: 1; /* Fully visible */
+                opacity: 1; 
             }
             100% {
-                opacity: 0; /* Fully transparent */
+                opacity: 0;
             }
         }
         .process {
-            position: absolute; /* Position relative to the .Container */
-            top: 20px; /* Adjust to place it at the top */
-            left: 20px; /* Adjust to place it at the left */
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
             /* font-size: 14px; */
             color: rgb(2, 231, 40);
-            opacity: 0; /* Initially hidden */
+            opacity: 0; 
             white-space: pre-wrap;
         }
     </style>
@@ -56,81 +56,3 @@
 </body>
 </html>
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-            overflow: hidden; /* Prevent scrollbars */
-        }
-
-        .background-video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures the video covers the entire screen */
-            z-index: -1; /* Places the video behind other content */
-        }
-
-        .Container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            position: relative;
-            color: #fff;
-            font-family: monospace;
-        }
-
-        .first {
-            font-size: 20px;
-            animation: fadeInOut 2s 2 forwards;
-        }
-
-        @keyframes fadeInOut {
-            0% {
-                opacity: 0; /* Fully transparent */
-            }
-            50% {
-                opacity: 1; /* Fully visible */
-            }
-            100% {
-                opacity: 0; /* Fully transparent */
-            }
-        }
-
-        .process {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            font-size: 14px;
-            color: rgb(2, 231, 40);
-            opacity: 0;
-            white-space: pre-wrap;
-        }
-    </style>
-</head>
-<body>
-    <!-- Video Background -->
-    <video class="background-video" autoplay loop muted>
-        <source src="./matrix.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <div class="Container">
-        <div class="content">
-            <pre class="first">Hello</pre>
-            <pre class="process" id="process"></pre>
-        </div>
-    </div>
-    <script src="Script.js"></script>
-</body>
-</html>
- -->
